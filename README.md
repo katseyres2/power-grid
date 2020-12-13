@@ -7,7 +7,7 @@ The goal is to provide a new tool for the electrical network builders or scienti
 You can create a lot of power providers or electricity consumers who each have some data.
 It's also possible to make a complex power grid with power lines, focus nodes or distribution nodes.
 
-[Here]()'s the class diagram ...
+[Here](https://1drv.ms/u/s!AvEfKPLChyNUhKgiBB4Zb0kTHiKH8g?e=eb5zgh)'s the class diagram ...
 and [there]()'s the sequence diagram !
 
 So lets' explain this project ! :)
@@ -106,7 +106,7 @@ PowerLine pl2 = new PowerLine(c2.Id, p1.Id);
 * **Distribution node** : receiving energy from a line and distributing it between several output lines in controllable proportions.
 * **Power line** : characterized by the maximum power they can convey.
 
-To see the application of this code, [click here](https://1drv.ms/u/s!AvEfKPLChyNUhKgZL3ftFKpzM6efEw?e=fVDzeG) (don't worry, it's a picture)
+To see the application of this code, [click here](https://1drv.ms/u/s!AvEfKPLChyNUhKgaotLJ6A46SJhQZw?e=OrYXUh) (don't worry, it's a picture)
 
 Add all components to the grid network :
 ```Csharp

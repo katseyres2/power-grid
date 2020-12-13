@@ -56,10 +56,13 @@ namespace Script
             Alerts.OverProduction("PP1002");
             Alerts.OverloadedLine("PL1003");
             Alerts.UnderProduction("PP1003");
-            Alerts.Blakout("PP1001");
+            Alerts.Blackout("PP1001");
 
             Console.WriteLine("total consumption : " + ConsumerManager.GetTotalConsumption() + " kW");
             Console.WriteLine("total production : " + ProducerManager.GetTotalProduction() + " kW");
+        
+            Console.WriteLine(GlobalMarket.GetGlobalExportPrice());
+            Console.WriteLine(GlobalMarket.GetGlobalImportPrice());
         }
     }
 

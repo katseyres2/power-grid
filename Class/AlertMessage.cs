@@ -36,7 +36,7 @@ namespace Script
             sw.Dispose();
         }
 
-        public static void Blakout(string id)
+        public static void Blackout(string id)
         {
             Console.WriteLine(string.Format("[BLACKOUT ALERT] !!! {0} has crashed !!!", id));
 

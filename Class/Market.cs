@@ -12,18 +12,20 @@ namespace Script
         public static int GlobalImportPrice = 0;
         public static int GlobalExportPrice = 0;
         
-        public static int GetGlobalImportPrice(List<int> data)
+        public static int GetGlobalImportPrice()
         {
-            foreach (int price in data)
-                GlobalImportPrice += price;
-
+            foreach (Consumer c in ConsumerManager.consumers)
+                if (c.Type == "international sales")
+                    GlobalImportPrice += c.Power_consumption.Data;
+            
             return GlobalImportPrice;
         }
 
-        public static int GetGlobalExportPrice(List<int> data)
+        public static int GetGlobalExportPrice()
         {
-            foreach (int price in data)
-                GlobalExportPrice += price;
+            foreach (Producer p in ProducerManager.producers)
+                if (p.Type == "international purchasing")
+                    GlobalExportPrice += p.Electricity_production.Data;
 
             return GlobalExportPrice;
         }
