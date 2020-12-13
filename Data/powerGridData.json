@@ -1,0 +1,34 @@
+{
+  "Power_lines": [
+    {
+      "Id": "PL1001",
+      "From": "PC1001",
+      "To": "PC1002"
+    },
+    {
+      "Id": "PL1002",
+      "From": "PC1002",
+      "To": "PP1001"
+    }
+  ],
+  "Focus_nodes": [
+    {
+      "Id": "FN1001",
+      "From": [
+        "PP1001",
+        "PP1002"
+      ],
+      "To": "PP1003"
+    }
+  ],
+  "Distribution_nodes": [
+    {
+      "Id": "DN1001",
+      "From": "PP1002",
+      "To": [
+        "PC1001",
+        "PC1002"
+      ]
+    }
+  ]
+}

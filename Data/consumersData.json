@@ -1,0 +1,22 @@
+[
+  {
+    "Id": "PC1001",
+    "Type": "city",
+    "Name": "Namur",
+    "Power_consumption": {
+      "Unit": "kW",
+      "Period": "daily",
+      "Data": 2324
+    }
+  },
+  {
+    "Id": "PC1002",
+    "Type": "company",
+    "Name": "Engie",
+    "Power_consumption": {
+      "Unit": "kW",
+      "Period": "daily",
+      "Data": 234
+    }
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "Id": "PP1001",
+    "Type": "gas power plant",
+    "Name": "Engie",
+    "Description": "flexible production",
+    "Electricity_production": {
+      "Unit": "kW",
+      "Period": "daily",
+      "Data": 23434
+    },
+    "Cost_production": {
+      "Unit": "Dollar",
+      "Period": "daily",
+      "Data": 234
+    },
+    "CO2_production": {
+      "Unit": "kg/m3",
+      "Period": "daily",
+      "Data": 3234
+    }
+  },
+  {
+    "Id": "PP1002",
+    "Type": "nuclear power plant",
+    "Name": "Tihange",
+    "Description": "constant production, expensive and slow to start and stop",
+    "Electricity_production": {
+      "Unit": "kW",
+      "Period": "daily",
+      "Data": 232
+    },
+    "Cost_production": {
+      "Unit": "Dollar",
+      "Period": "daily",
+      "Data": 2211
+    },
+    "CO2_production": {
+      "Unit": "kg/m3",
+      "Period": "daily",
+      "Data": 123
+    }
+  },
+  {
+    "Id": "PP1003",
+    "Type": "wind farm",
+    "Name": "Engie",
+    "Description": null,
+    "Electricity_production": {
+      "Unit": "kW",
+      "Period": "daily",
+      "Data": 22
+    },
+    "Cost_production": {
+      "Unit": "Dollar",
+      "Period": "daily",
+      "Data": 2121
+    },
+    "CO2_production": {
+      "Unit": "kg/m3",
+      "Period": "daily",
+      "Data": 1123
+    }
+  },
+  {
+    "Id": "PP1004",
+    "Type": "solar power plant",
+    "Name": "Luminus",
+    "Description": "weather dependent production cannot be reduced",
+    "Electricity_production": {
+      "Unit": "kW",
+      "Period": "daily",
+      "Data": 23
+    },
+    "Cost_production": {
+      "Unit": "Dollar",
+      "Period": "daily",
+      "Data": 234433
+    },
+    "CO2_production": {
+      "Unit": "kg/m3",
+      "Period": "daily",
+      "Data": 2
+    }
+  },
+  {
+    "Id": "PP1005",
+    "Type": "international purchasing",
+    "Name": "Tesla",
+    "Description": null,
+    "Electricity_production": {
+      "Unit": "kW",
+      "Period": "daily",
+      "Data": 23
+    },
+    "Cost_production": {
+      "Unit": "Dollar",
+      "Period": "daily",
+      "Data": 23434
+    },
+    "CO2_production": {
+      "Unit": "kg/m3",
+      "Period": "daily",
+      "Data": 34
+    }
+  }
+]
