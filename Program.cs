@@ -24,6 +24,8 @@ namespace Script
             ProducerManager.AddProducer(p4);
             ProducerManager.AddProducer(p5);
 
+            ProducerManager.AddNewType("my big arms");
+
             JsonManager.UpdateProducers();
 
             Consumer c1 = new Consumer("city", "Namur", new Information("kW", 2324));
@@ -52,7 +54,9 @@ namespace Script
             l.GetWindSpeed();
 
             Alerts.OverProduction("PP1002");
-            Alerts.OverloadedLine("PC1003");
+            Alerts.OverloadedLine("PL1003");
+            Alerts.UnderProduction("PP1003");
+            Alerts.Blakout("PP1001");
 
             Console.WriteLine("total consumption : " + ConsumerManager.GetTotalConsumption() + " kW");
             Console.WriteLine("total production : " + ProducerManager.GetTotalProduction() + " kW");
